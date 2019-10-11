@@ -1,0 +1,29 @@
+{
+  "uuid": "c993a4400d50b5784e6c7655e83ba1b0",
+  "input": "STV0367 DVB-C DVB-T : DVB-C #1",
+  "stream": "210MHz in Welho",
+  "subs": 1,
+  "weight": 4,
+  "pids": [
+    0,
+    1,
+    16,
+    17,
+    18
+  ],
+  "signal": 64,
+  "signal_scale": 1,
+  "ber": 65535,
+  "snr": 299,
+  "snr_scale": 1,
+  "unc": 28382,
+  "bps": 488800,
+  "te": 0,
+  "cc": 9872,
+  "ec_bit": 0,
+  "tc_bit": 0,
+  "ec_block": 0,
+  "tc_block": 0,
+  "update": 1,
+  "notificationClass": "input_status"
+}

@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Demo</title>
+  </head>
+  <body>
+    <h1>Demo</h1>
+    <script type="text/javascript">
+      const websocket = new WebSocket('ws://127.0.0.1:8080/');
+
+      websocket.onopen = () => {
+        console.log('Socket opened');
+      }
+
+      websocket.onmessage = (event) => {
+        console.log(event.data);
+      }
+    </script>
+  </body>
+</html>

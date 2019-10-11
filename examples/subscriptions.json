@@ -1,0 +1,21 @@
+{
+  "id": 1061,
+  "start": 1570798554,
+  "errors": 0,
+  "state": "Running",
+  "title": "epggrab",
+  "service": "STV0367 DVB-C DVB-T : DVB-C #1/Welho/210MHz/Raw PID Subscription",
+  "pids": [
+    0,
+    1,
+    16,
+    17,
+    18
+  ],
+  "in": 130807,
+  "out": 61247,
+  "total_in": 2319755,
+  "total_out": 1119751,
+  "updateEntry": 1,
+  "notificationClass": "subscriptions"
+}

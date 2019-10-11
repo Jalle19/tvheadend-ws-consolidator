@@ -1,0 +1,24 @@
+websocket:
+  listenAddress: 127.0.0.1
+  listenPort: 8080
+
+servers:
+  - {
+    name: "First server",
+    hostname: "tvheadend1.example.com",
+    port: 9981,
+    username: "admin",
+    password: "admin"
+  }
+  - {
+    name: "Another server",
+    hostname: "tvheadend2.example.com",
+    port: 9981,
+    username: "admin",
+    password: "password"
+  }
+
+messages:
+  - "input status"
+  - "logmessage"
+  - "subscriptions"
