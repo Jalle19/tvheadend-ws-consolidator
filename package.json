@@ -6,7 +6,7 @@
   "license": "GPL-2.0-or-later",
   "author": "Sam Stenvall <neggelandia@gmail.com>",
   "dependencies": {
-    "ws": "^7.1.2",
+    "ws": "^7.4.6",
     "yaml": "^1.7.1"
   }
 }
